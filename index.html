@@ -9,8 +9,10 @@
 </head>
 <body>
 	<h1>Fizz Buzz</h1>
-	<h2>Numbers to 100</h2>
-	<div id="content">
-	</div>
+	<label for="number">Enter Number Between 1 and 100</label>
+	<input type="text" id="number" name="number">
+	<input type="submit" id="go" value="FizzBuzz" OnClick="fizzbuzz('number')">
+	<input type="submit" id="reset" value="Reset" OnClick="resetPage()">
+	<div id="content"></div>
 </body>
 </html>
